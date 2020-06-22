@@ -107,3 +107,39 @@
     height: 65px;
     width: 65px;
   }
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin-right: 10px;
+}
+.instagram{
+	background-color: #FF00FF;
+	margin-right: 10px;
+}
+.youtube{
+	background-color: #FF0000;
+}
