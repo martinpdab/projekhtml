@@ -1,18 +1,19 @@
 * {
     box-sizing: border-box;
   }
-  
+
   html, body,
   ul, ol, li,
   h1, h2, h3, h4, h5, h6, p, div {
     margin: 0;
     padding: 0;
   }
-  
+
   body {
     font-family: "American Typewriter";
+    background-color: #fff;
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -64,7 +65,7 @@
     box-shadow: none;
     opacity: 1;
   }
-  
+
   .konten .bawah .heading h2{
       text-align: center;
       padding-top: 10px;
@@ -89,11 +90,11 @@
     line-height: 40px;
     font-size: 20px;
   }
-  
+
  .konten .bawah {
      background-color: #dfe4ea;
      text-align: center;
-     padding-bottom: 80px;
+     padding-bottom: 200px;
      padding-left: 5%;
      padding-right: 5%;
  }
@@ -101,7 +102,7 @@
  .anggota {
     float: left;
     width: 25%;
-    
+
   }
   .anggota img{
     height: 65px;
@@ -142,4 +143,119 @@
 }
 .youtube{
 	background-color: #FF0000;
+}
+
+/* footer */
+
+footer {
+  background-color: #2c2c2c;
+  padding: 30px 0;
+}
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.left-col h2 {
+  font-size: 30px;
+}
+
+.social-media {
+  margin: 20px 0;
+}
+
+.social-media a {
+  color: #fff;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover {
+  color: #2196f3;
+}
+
+.right-text {
+  color: #888;
+  font-family: lato;
+}
+
+.right-col h1 {
+  font-size: 26px
+  color: #ffff00;
+}
+
+.border {
+  width: 100px;
+  height: 4px;
+  margin: 10px 0;
+  background: #fc5c65;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb {
+  flex: 1;
+  margin-top: 10px;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #fff;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.button {
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #fff;
+  background: #fc5c65;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+  margin-left: 5px;
+}
+
+.button:hover {
+  opacity: : .7;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-container {
+    max-width: 600px;
+  }
+  .right-col {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .left-col {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .button {
+    margin: 0;
+    width: 100%;
+    margin-top: 2px;
+  }
 }
