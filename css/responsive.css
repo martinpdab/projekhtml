@@ -10,6 +10,9 @@
     width: 100%;
     text-align: center;
   }
+	.ikon-menu {
+		display: none;	
+}
 }
 
 @media screen and (max-width: 760px) {
@@ -31,4 +34,5 @@
 	}
 	.ikon-menu {
 		display: block;
+	}
 	}
