@@ -33,7 +33,7 @@
 		display: none;
 	}
 	.header-kanan i{
-		display: block;
+		display: inline-block;
 	}
 }
 
