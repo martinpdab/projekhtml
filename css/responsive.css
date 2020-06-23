@@ -36,8 +36,3 @@
 		display: block;
 	}
 	}
-@media screen and (max-width: 2160px) {
-	.header-kanan i{
-		display: none;
-	}
-}
