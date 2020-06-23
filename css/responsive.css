@@ -29,7 +29,10 @@
 	.header-kanan a{
 		display: none;
 	}
-	.menu-icon{
+	header i{
 		display: block;
+		float: right;
+		color: #ffffff
+		padding: 10px 0
 	}
 	}
