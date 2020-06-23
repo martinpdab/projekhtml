@@ -319,12 +319,3 @@ footer {
 .button:hover {
   opacity: : .7;
 }
-
-/* ikon menu */
-.ikon-menu {
-  color: #ffffff;
-  float: right;
-  line-height: 40px;
-  padding: 21px 0;
-  display: none;
-}
