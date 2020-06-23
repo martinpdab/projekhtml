@@ -108,6 +108,7 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
 }
     .header-kanan i{
+        display: none;
         color: #ffffff;
         float: right;
         font-size: 20px;
