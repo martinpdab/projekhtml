@@ -33,17 +33,11 @@
 		display: none;
 	}
 	.header-kanan i{
-		display: block;
+		display: inline-block;
 		float: right;
 		color: #ffffff
 		padding: 10px 0;
 		font-size: 20px
-	}
-}
-
-@media screen and (max-width: 2000px) {
-	.header-kanan i{
-		display: none;
 	}
 }
 
