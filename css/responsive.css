@@ -33,11 +33,7 @@
 		display: none;
 	}
 	.header-kanan i{
-		display: inline-block;
-		color: #ffffff;
-        	float: right;
-        	font-size: 20px;
-        	padding: 10px 0;
+		display: block;
 	}
 }
 
