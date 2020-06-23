@@ -82,6 +82,13 @@ body {
     top: 0;
     z-index: 10;
   }
+   header i{
+        color: #ffffff;
+        float: right;
+        font-size: 20px;
+        padding: 10px 0;
+        display: none;
+ }
   .header-kiri {
     float: left;
   }
@@ -106,13 +113,6 @@ body {
   }
     .header-kanan a:hover {
   background-color: rgba(255, 255, 255, 0.3);
-}
-    .menu-icon {
-        color: #ffffff;
-        float: right;
-        font-size: 20px;
-        padding: 10px 0;
-        display: none;
 }
  .anggota {
     float: left;
