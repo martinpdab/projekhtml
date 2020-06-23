@@ -313,3 +313,12 @@ footer {
 .button:hover {
   opacity: : .7;
 }
+
+/* ikon menu */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
