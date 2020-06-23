@@ -92,16 +92,22 @@ body {
   }
   .header-kanan {
   float: right;
-  background-color: #2F4F4F;
+  margin-right: -25px;
   }
-  .header-kanan a
+  
+   .header-kanan a
   {
-    float:left;
+    float: left;
     line-height: 40px;
     padding: 0 25px;
     color: white;
     display: block;
+    transition: all 0.5s;
   }
+    .header-kanan a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
  .anggota {
     float: left;
     width: 25%;
